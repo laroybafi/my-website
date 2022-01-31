@@ -15,10 +15,11 @@ import {
 export default function Blog() {
   return (
     <Container>
+            <Spacer y={3} />
       <Row justify="center" align="center">
         <Text
           h1
-          size={20}
+          size={25}
           css={{
             textGradient: "45deg, $blue500 -20%, $pink500 50%",
           }}
@@ -28,10 +29,11 @@ export default function Blog() {
         </Text>
       </Row>
       <Row justify="center" align="center" >
-        <Text h2 weight="bold" align="center">
-        Insightful and helpful <br></br>content curated for you.
+        <Text h2 size={50} weight="bold" align="center">
+        Insightful and helpful <br/>content curated for you.
         </Text>
       </Row>
+      <Spacer y={3} />
       <Row>
         <Grid.Container gap={2} justify="center">
           <Grid xs={12} sm={5}>

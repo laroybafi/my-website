@@ -1,15 +1,17 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from "react";
-import userData from "../data/data";
+import userData from "../../data/data";
 import {
   Container,
   Grid,
   Row,
+  Button,
   Card,
   Text,
+  Col,
 } from "@nextui-org/react";
 
-export default function About() {
+export default function Certification() {
   return (
     <Container>
       <Row justify="center" align="center">
@@ -21,12 +23,12 @@ export default function About() {
           }}
           weight="bold"
         >
-          ABOUT ME
+          CERTIFICATIONS
         </Text>
       </Row>
       <Row justify="center" align="center">
         <Text h2 weight="bold">
-          Here's my story.
+          Here's my certifications.
         </Text>
       </Row>
       <Row>
@@ -34,7 +36,7 @@ export default function About() {
           <Grid xs={12} sm={5}>
             <Card cover css={{ w: "100%" }}>
             <Card.Image
-                  src="/bafi.jpg"
+                  src="/images/card-example-5.jpeg"
                   height={400}
                   width="100%"
                   alt="Relaxing app background"
@@ -44,7 +46,7 @@ export default function About() {
           <Grid xs={12} sm={7}>
             <Card>
             <Text>
-            {userData.about.description}
+            {userData.about.title}
         </Text>
             </Card>
           </Grid>

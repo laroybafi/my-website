@@ -5,7 +5,7 @@ import {
   Container,
   Grid,
   Row,
-  Button,
+  Spacer,
   Card,
   Text,
   Col,
@@ -14,10 +14,11 @@ import {
 export default function Certification() {
   return (
     <Container>
+      <Spacer y={3} />
       <Row justify="center" align="center">
         <Text
           h1
-          size={20}
+          size={25}
           css={{
             textGradient: "45deg, $blue500 -20%, $pink500 50%",
           }}
@@ -27,27 +28,26 @@ export default function Certification() {
         </Text>
       </Row>
       <Row justify="center" align="center">
-        <Text h2 weight="bold">
-        A selection of my favorite works.
+        <Text h2 size={50} weight="bold">
+          A selection of my favorite works.
         </Text>
       </Row>
+      <Spacer y={3} />
       <Row>
         <Grid.Container gap={2} justify="center">
           <Grid xs={12} sm={5}>
             <Card cover css={{ w: "100%" }}>
-            <Card.Image
-                  src="/images/card-example-5.jpeg"
-                  height={400}
-                  width="100%"
-                  alt="Relaxing app background"
-                />
+              <Card.Image
+                src="/images/card-example-5.jpeg"
+                height={400}
+                width="100%"
+                alt="Relaxing app background"
+              />
             </Card>
           </Grid>
           <Grid xs={12} sm={7}>
             <Card>
-            <Text>
-            {userData.about.title}
-        </Text>
+              <Text>{userData.about.title}</Text>
             </Card>
           </Grid>
         </Grid.Container>

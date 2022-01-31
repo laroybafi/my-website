@@ -1,5 +1,5 @@
-import ContainerBlock from "../components/ContainerBlock";
-import Hero from "../components/Hero";
+import ContainerBlock from "../components/layouts/ContainerBlock";
+import Hero from "../components/home/Hero";
 import RecentBlog from "../components/blogs/RecentBlog";
 import RecentProjects from "../components/projects/RecentProject";
 

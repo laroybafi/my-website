@@ -51,8 +51,11 @@ export default function Navbar() {
       </div>
       <div>
       <Grid>
-        <Switch shadow color="secondary" checked={true}/>
-    </Grid>
+      <Switch
+            checked={true}
+            size="sm"
+        />
+      </Grid>
       </div>
     </Nav>
    </Container>

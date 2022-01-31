@@ -1,5 +1,4 @@
 const userData = {
-  mediumUsername: "laroybafia",
   name: "Laroybafi Ahmad",
   designation: "Software Engineer",
   avatarUrl: "/avatar.png",
@@ -64,6 +63,7 @@ const userData = {
     linkedin: "https://linkedin.com/in/laroybafi",
     github: "https://github.com/laroybafi",
     facebook: "https://facebook.com/roylabafi",
+    mediumUsername: "laroybafia",
   },
 };
 

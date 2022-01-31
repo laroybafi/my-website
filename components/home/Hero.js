@@ -1,6 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from "react";
-import userData from "../data/data";
+import userData from "../../data/data";
 import Image from "next/image";
 import { Container, Grid, Row, Button, Spacer, Text, Link } from "@nextui-org/react";
 

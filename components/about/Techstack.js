@@ -1,15 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from "react";
-import userData from "../data/data";
-import {
-  Container,
-  Grid,
-  Row,
-  Button,
-  Card,
-  Text,
-  Col,
-} from "@nextui-org/react";
+import userData from "../../data/data";
+import { Container, Grid, Card, Text, Spacer } from "@nextui-org/react";
 
 export default function Techstack() {
   return (
@@ -32,6 +24,7 @@ export default function Techstack() {
           </Grid>
         ))}
       </Grid.Container>{" "}
+      <Spacer y={3} />
     </Container>
   );
 }
