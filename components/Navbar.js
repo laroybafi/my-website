@@ -2,14 +2,14 @@ import React from "react";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import styled from 'styled-components';
-import { Grid, Avatar } from "@nextui-org/react";
+import { Grid, Avatar, Container, Switch } from "@nextui-org/react";
 
 const Nav = styled.nav`
   height: 80px;
   background-color: #ffffff;
   color: #000000;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 `;
 
@@ -20,7 +20,8 @@ export default function Navbar() {
   const router = useRouter();
   console.log(router.asPath);
   return (
-    <Nav>
+   <Container md>
+      <Nav>
       <div>
         <Link href="/" passHref>
           <Grid>
@@ -48,6 +49,12 @@ export default function Navbar() {
           <StyledLink>Contact</StyledLink>
         </Link>
       </div>
+      <div>
+      <Grid>
+        <Switch shadow color="secondary" checked={true}/>
+    </Grid>
+      </div>
     </Nav>
+   </Container>
   );
 }

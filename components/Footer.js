@@ -6,7 +6,7 @@ import { Grid, Spacer, Text, Row, Container } from "@nextui-org/react";
 
 export default function Footer() {
   return (
-    <Container>
+    <Container md>
       <Spacer y={2} />
       <Row>
         <Grid.Container justify="space-between">
