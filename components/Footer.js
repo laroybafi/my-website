@@ -1,21 +1,24 @@
 import React from "react";
 import Link from "next/link";
 import { useRouter } from "next/router";
-import styled from 'styled-components'
-
-const FooterSection = styled.div`
-  height: 80px;
-  background-color: #0f0f0f;
-  color: #ffffff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-`;
+import { Grid, Spacer, Text, Row, Container } from "@nextui-org/react";
 
 export default function Footer() {
   return (
-    <FooterSection>
-      <p> Laroybafi Ahmad 2021 All Right Reserved</p>
-    </FooterSection>
+    <Container>
+      <Spacer y={2} />
+      <Row>
+        <Grid.Container justify="space-between">
+          <Grid xs={12} sm={3}>
+            <Text blockquote>© 2022 Laroybafi Ahmad</Text>
+          </Grid>
+          <Grid xs={12} sm={4}></Grid>
+          <Grid xs={12} sm={3}>
+          <Text blockquote>Kaggle | Github | Dribble | Linkedin</Text>
+          </Grid>
+        </Grid.Container>
+      </Row>
+      <Spacer y={2} />
+    </Container>
   );
 }

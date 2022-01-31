@@ -1,6 +1,6 @@
 import ContainerBlock from "../components/ContainerBlock";
 import Hero from "../components/Hero";
-import Blog from "../components/blogs/Blog";
+import RecentBlog from "../components/blogs/RecentBlog";
 import RecentProjects from "../components/projects/RecentProject";
 
 export default function Home() {
@@ -10,7 +10,7 @@ export default function Home() {
   >
     <Hero />
     <RecentProjects />
-    <Blog />
+    <RecentBlog />
   </ContainerBlock>
   );
 }

@@ -29,7 +29,7 @@ export default function Navbar() {
         </Link>
       </div>
       <div>
-        <Link href="/#" passHref>
+        <Link href="/" passHref>
           <StyledLink>Home</StyledLink>
         </Link>
         <Link href="/about" passHref>
@@ -40,6 +40,9 @@ export default function Navbar() {
         </Link>
         <Link href="/projects" passHref>
           <StyledLink>Project</StyledLink>
+        </Link>
+        <Link href="/blog" passHref>
+          <StyledLink>Blog</StyledLink>
         </Link>
         <Link href="/contact" passHref>
           <StyledLink>Contact</StyledLink>
