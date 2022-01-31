@@ -1,13 +1,12 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from "react";
+import userData from "../data/data";
 import {
   Container,
   Grid,
   Row,
-  Button,
   Card,
   Text,
-  Col,
 } from "@nextui-org/react";
 
 export default function About() {
@@ -45,20 +44,7 @@ export default function About() {
           <Grid xs={12} sm={7}>
             <Card>
             <Text>
-          I’m Braydon, a developer, creative coder, blogger and self-proclaimed
-          designer who specializes in front-end development. My mission is to
-          translate user-focussed designs into pixel-perfect websites or
-          applications that run blazing fast. I’m currently working as a senior
-          front end developer at LogicGate where I help develop an agile GRC
-          cloud solution that combines powerful functionality with intuitive
-          design to enhance enterprise GRC programs. Prior to LogicGate, I
-          worked as a senior full-stack engineer at Cognizant where I helped
-          architect and develop full-stack RESTful microservices, train and
-          prepare developers for delivery, and assist in leading the front-end
-          practice in a lab-based working environment. Before Cognizant, I
-          worked as a UI Developer for projekt202 helping craft design systems
-          and building reusable component libraries for multi-million dollar
-          companies.
+            {userData.about.description}
         </Text>
             </Card>
           </Grid>

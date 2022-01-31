@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
-import Head from "next/head";
+import React from "react";
+import userData from "../data/data";
 import Image from "next/image";
-import styles from "../styles/Home.module.css";
 import { Container, Grid, Row, Button, Spacer, Text, Link } from "@nextui-org/react";
 
 export default function Hero() {
@@ -18,7 +18,7 @@ export default function Hero() {
         <Grid xs={12} sm={7}>
           <Row>
             <Text h1>
-              I'm Laroy. I'm a web developer, data engineer and UI designer
+            {userData.about.title}
             </Text>
           </Row>
         </Grid>
