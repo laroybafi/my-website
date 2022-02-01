@@ -1,63 +1,63 @@
+/* eslint-disable react/no-unescaped-entities */
 import React from "react";
-import Link from "next/link";
-import { useRouter } from "next/router";
-import styled from 'styled-components';
-import { Grid, Avatar, Container, Switch } from "@nextui-org/react";
+import userData from "../../data/data";
+import NextLink from "next/link";
+import {
+  Grid,
+  Spacer,
+  Switch,
+  Row,
+  Container,
+  Avatar,
+  Link,
+} from "@nextui-org/react";
 
-const Nav = styled.nav`
-  height: 80px;
-  background-color: #ffffff;
-  color: #000000;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-`;
-
-const StyledLink = styled.a`
-  padding: 0 2rem`;
-
-export default function Navbar() {
-  const router = useRouter();
-  console.log(router.asPath);
+export default function Footer() {
   return (
-   <Container md>
-      <Nav>
-      <div>
-        <Link href="/" passHref>
-          <Grid>
-            <Avatar size="lg" src="/avatar.png" color="gradient" bordered />
+    <Container md>
+      <Spacer y={2} />
+      <Row>
+        <Grid.Container justify="center">
+          <Grid xs={12} sm={2} alignItems="center">
+            <Link href="/" passHref>
+              <Grid>
+                <Avatar size="lg" src="/avatar.png" color="gradient" bordered />
+              </Grid>
+            </Link>
           </Grid>
-        </Link>
-      </div>
-      <div>
-        <Link href="/" passHref>
-          <StyledLink>Home</StyledLink>
-        </Link>
-        <Link href="/about" passHref>
-          <StyledLink>About</StyledLink>
-        </Link>
-        <Link href="/experience" passHref>
-          <StyledLink>Experience</StyledLink>
-        </Link>
-        <Link href="/projects" passHref>
-          <StyledLink>Project</StyledLink>
-        </Link>
-        <Link href="/blog" passHref>
-          <StyledLink>Blog</StyledLink>
-        </Link>
-        <Link href="/contact" passHref>
-          <StyledLink>Contact</StyledLink>
-        </Link>
-      </div>
-      <div>
-      <Grid>
-      <Switch
-            checked={true}
-            size="sm"
-        />
-      </Grid>
-      </div>
-    </Nav>
-   </Container>
+          <Grid xs={12} sm={8} alignItems="center" justify="center">
+            <Link block underline color="black" href="/">
+              Home
+            </Link>
+            <Spacer />
+            <Link block underline color="black" href="/about">
+              About
+            </Link>
+            <Spacer />
+            <Link block underline color="black" href="/experience">
+              Experience
+            </Link>
+            <Spacer />
+            <Link block underline color="black" href="/projects">
+              Projects
+            </Link>
+            <Spacer />
+            <Link block underline color="black" href="/blog">
+              Blog
+            </Link>
+            <Spacer />
+            <Link block underline color="black" href="/contact">
+              Contact
+            </Link>
+          </Grid>
+          <Grid xs={12} sm={2} alignItems="center" justify="flex-end">
+          <Grid>
+        <Switch shadow color="primary" checked={true}/>
+    </Grid>
+          </Grid>
+        </Grid.Container>
+      </Row>
+      <Spacer y={2} />
+    </Container>
   );
 }

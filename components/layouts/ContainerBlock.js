@@ -44,11 +44,11 @@ export default function ContainerBlock({ children, ...customMeta }) {
         )}
       </Head>
       <main className="dark:bg-gradient-to-l dark:from-[#0f0f0f] w-full">
-        <Navbar />
         <Container md>
+        <Navbar />
         <div>{children}</div>
-        </Container>
         <Footer />
+        </Container>
       </main>
     </div>
   );

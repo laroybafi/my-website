@@ -58,12 +58,14 @@ const userData = {
     ],
   },
   socialLinks: {
+    facebook: "https://facebook.com/roylabafi",
     instagram: "https://instagram.com/laroybafia",
     twitter: "https://twitter.com/bafiiii",
     linkedin: "https://linkedin.com/in/laroybafi",
     github: "https://github.com/laroybafi",
-    facebook: "https://facebook.com/roylabafi",
-    mediumUsername: "laroybafia",
+    medium: "https://medium.com/@laroybafia",
+    kaggle:"https://www.kaggle.com/laroybafia",
+    dribble:"https://dribbble.com/laroybafia",
   },
 };
 
