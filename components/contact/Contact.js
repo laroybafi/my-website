@@ -43,13 +43,13 @@ export default function About() {
               <Text h3 weight="bold">
                 {userData.contact.title}
               </Text>
-              <Text h5>{userData.contact.description}</Text>
-              <Text>Email : {userData.email}</Text>
+              <Text>{userData.contact.description}</Text>
+              <Text weight="bold">Email : {userData.email}</Text>
               <Spacer y={2} />
               <Text h3 weight="bold">
                 {userData.contact.hire}
               </Text>
-              <Text h5>{userData.contact.schedule}</Text> <Spacer y={0.5} />
+              <Text>{userData.contact.schedule}</Text> <Spacer y={0.5} />
               <Link
                 color="primary"
                 target="_blank"
@@ -65,22 +65,22 @@ export default function About() {
               </Text>
               <Text>
                 <Link href={userData.socialLinks.linkedin} color underline>
-                  LinkedIn
+                • LinkedIn
                 </Link>
               </Text>
               <Text>
                 <Link href={userData.socialLinks.instagram} color underline>
-                  Instagram
+                •	Instagram
                 </Link>
               </Text>
               <Text>
                 <Link href={userData.socialLinks.facebook} color underline>
-                  Facebook
+                •	Facebook
                 </Link>
               </Text>
               <Text>
                 <Link href={userData.socialLinks.twitter} color underline>
-                  Twitter
+                •	Twitter
                 </Link>
               </Text>
             </Card>

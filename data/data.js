@@ -204,6 +204,23 @@ const userData = {
       },
     ],
   },
+  publication: {
+    title: "publication",
+    list : [
+      {
+        name: "Analisa Demografi dan Jaringan Penjudi Daring di Twitter Menggunakan Metode Social Network Analysis",
+        date: "December 2019",
+        author:"Ahmad Laroy Bafi, A Pahmi, Dinda Meidianti Kusuma Putri, Shalma Rachmayani Putri, Firwam Al Ayubi, Nur Aini Rakhmawati",
+        link: "http://dx.doi.org/10.21111/ejoc.v4i2.3682",
+      },
+      {
+        name: "RDF Translation of Data Crawling on the Jakmall.com Website",
+        date: "March 2020",
+        author:"Ahmad Laroy Bafi, Irfan Rifqy Susetyo, Moh. Hammam Nash",
+        link: "http://dx.doi.org/10.13140/RG.2.2.11680.12809",
+      },
+    ],
+  },
 };
 
 export default userData;

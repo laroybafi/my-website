@@ -33,25 +33,6 @@ export default function Certification() {
         </Text>
       </Row>
       <Spacer y={3} />
-      <Row>
-        <Grid.Container gap={2} justify="center">
-          <Grid xs={12} sm={5}>
-            <Card cover css={{ w: "100%" }}>
-              <Card.Image
-                src="/images/card-example-5.jpeg"
-                height={400}
-                width="100%"
-                alt="Relaxing app background"
-              />
-            </Card>
-          </Grid>
-          <Grid xs={12} sm={7}>
-            <Card>
-              <Text>{userData.about.title}</Text>
-            </Card>
-          </Grid>
-        </Grid.Container>
-      </Row>
     </Container>
   );
 }
