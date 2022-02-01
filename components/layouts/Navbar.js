@@ -5,7 +5,7 @@ import NextLink from "next/link";
 import {
   Grid,
   Spacer,
-  Switch,
+  Loading,
   Row,
   Container,
   Avatar,
@@ -52,7 +52,7 @@ export default function Footer() {
           </Grid>
           <Grid xs={12} sm={2} alignItems="center" justify="flex-end">
           <Grid>
-        <Switch shadow color="primary" checked={true}/>
+          <Loading type="points" size="xl"/>
     </Grid>
           </Grid>
         </Grid.Container>

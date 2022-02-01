@@ -35,7 +35,7 @@ export default function Hero() {
           <Link
                 color="primary"
                 target="_blank"
-                href="https://github.com/"
+                href={userData.socialLinks.myresume}
               >
             <Button size="lg" color="primary" auto ghost>
               My Resume

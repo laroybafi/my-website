@@ -18,42 +18,52 @@ const userData = {
       {
         title: "Orange",
         img: "/images/fruit-1.jpeg",
-        price: "$5.50",
       },
       {
         title: "Tangerine",
         img: "/images/fruit-2.jpeg",
-        price: "$3.00",
       },
       {
         title: "Raspberry",
         img: "/images/fruit-3.jpeg",
-        price: "$10.00",
       },
       {
         title: "Lemon",
         img: "/images/fruit-4.jpeg",
-        price: "$5.30",
+      },
+    ],
+  },
+  projects: {
+    title: "Projects",
+    list : [
+      {
+        category: "Web Development",
+        title: "Personal Website Portfolio Using NextJS and TailwindCSS",
+        link: "https://github.com/laroybafi/my-portfolio"
       },
       {
-        title: "Advocato",
-        img: "/images/fruit-5.jpeg",
-        price: "$15.70",
+        category: "Web Development",
+        title: "Personal Website Resume Using Bootstrap",
+        link: "https://github.com/laroybafi/Bootstrap-CV"
+      },
+    ],
+  },
+  blogs: {
+    title: "Blogs",
+    list : [
+      {
+        category: "Machine Learning",
+        title: "Klasifikasi Teks Review Tokopedia (NLP) menggunakan SVM dan Naive Bayes dengan Python",
+        img: "/images/card-example-6.jpeg",
+        src_image:"/medium.png",
+        link: "https://medium.com/@laroybafia/klasifikasi-teks-review-tokopedia-nlp-menggunakan-svm-dan-naive-bayes-dengan-python-977f37ec8142"
       },
       {
-        title: "Lemon 2",
-        img: "/images/fruit-6.jpeg",
-        price: "$8.00",
-      },
-      {
-        title: "Banana",
-        img: "/images/fruit-7.jpeg",
-        price: "$7.50",
-      },
-      {
-        title: "Watermelon",
-        img: "/images/fruit-8.jpeg",
-        price: "$12.20",
+        category: "Web Development",
+        title: "Personal Website Portfolio Using NextJS and TailwindCSS",
+        img: "/images/card-example-2.jpeg",
+        src_image:"/medium.png",
+        link: "https://medium.com/@laroybafia/klasifikasi-teks-review-tokopedia-nlp-menggunakan-svm-dan-naive-bayes-dengan-python-977f37ec8142"
       },
     ],
   },
@@ -66,6 +76,7 @@ const userData = {
     medium: "https://medium.com/@laroybafia",
     kaggle:"https://www.kaggle.com/laroybafia",
     dribble:"https://dribbble.com/laroybafia",
+    myresume: "https://drive.google.com/file/d/1rEXuZbcJ0J61QoDHoaiuY5piH5kZ6yi8/view?usp=sharing",
   },
 };
 
