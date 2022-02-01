@@ -1,57 +1,39 @@
-/* eslint-disable react/no-unescaped-entities */
 import React from "react";
 import userData from "../../data/data";
 import {
   Container,
   Grid,
-  Row,
-  Button,
   Card,
+  Spacer,
+  Link,
   Text,
-  Col,
+  Button,
 } from "@nextui-org/react";
 
 export default function Certification() {
   return (
     <Container>
-      <Row justify="center" align="center">
-        <Text
-          h1
-          size={20}
-          css={{
-            textGradient: "45deg, $blue500 -20%, $pink500 50%",
-          }}
-          weight="bold"
-        >
-          CERTIFICATIONS
-        </Text>
-      </Row>
-      <Row justify="center" align="center">
-        <Text h2 weight="bold">
-          Here's my certifications.
-        </Text>
-      </Row>
-      <Row>
-        <Grid.Container gap={2} justify="center">
-          <Grid xs={12} sm={5}>
-            <Card cover css={{ w: "100%" }}>
-            <Card.Image
-                  src="/images/card-example-5.jpeg"
-                  height={400}
-                  width="100%"
-                  alt="Relaxing app background"
-                />
+      <h1>Certification</h1>
+      <h3>Here are lists of my professional certification</h3>
+      <p>Check out detail of my certificate!</p>
+      <Grid.Container gap={2}>
+        {userData.certification.list.map((item, index) => (
+          <Grid xs={12} sm={4} key={index}>
+            <Card hoverable>
+              <Text h4>{item.publisher}</Text>
+              <Text>{item.title}</Text>
+              <Card.Footer>
+                <Link color="primary" target="_blank" href={item.link}>
+                  <Button color="gradient" auto ghost>
+                    View Certificate
+                  </Button>
+                </Link>
+              </Card.Footer>
             </Card>
           </Grid>
-          <Grid xs={12} sm={7}>
-            <Card>
-            <Text>
-            {userData.about.title}
-        </Text>
-            </Card>
-          </Grid>
-        </Grid.Container>
-      </Row>
+        ))}
+      </Grid.Container>
+      <Spacer y={3} />
     </Container>
   );
 }

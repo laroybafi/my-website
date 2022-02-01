@@ -20,7 +20,7 @@ export default function About() {
         </Text>
       </Row>
       <Row justify="center" align="center">
-        <Text h2 size={50} weight="bold">
+      <Text h2 size={50} weight="bold" align="center">
           Here's my story.
         </Text>
       </Row>
@@ -28,12 +28,12 @@ export default function About() {
       <Row>
         <Grid.Container gap={2} justify="center">
           <Grid xs={12} sm={5}>
-            <Card cover css={{ h: "75%" }}>
+            <Card cover css={{ h: "73%" }}>
               <Card.Image
                 src="/bafi.jpg"
-                height={200}
+                height={400}
                 width="100%"
-                alt="Relaxing app background"
+                alt="foto"
               />
             </Card>
           </Grid>

@@ -28,7 +28,7 @@ export default function Certification() {
         </Text>
       </Row>
       <Row justify="center" align="center">
-        <Text h2 size={50} weight="bold">
+      <Text h2 size={50} weight="bold" align="center">
           A selection of my favorite works.
         </Text>
       </Row>

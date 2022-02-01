@@ -13,7 +13,7 @@ const userData = {
       `Hello, you can call me Ahmad. I am graduated bachelor's degree from Sepuluh Nopember Institute of Technology, Information Systems Department, focusing on Data Acquisition & Information Disemination Laboratories. I have a big passion for data-related activity, and I think data is the main commodity in the future that will drive business to get more competitive. I love the challenge of working in the consulting industry, and I pride myself on working together as a team, meeting deadlines and helping businesses reach their utmost potential.`, 
       <br/>,<br/>,
       `I work on projects including websites, web apps, web scraping, data engineering and analytics, digital marketing, also web and graphic design. During my previous role at Gosocial Indonesia, I handled several projects such as social media management and optimization, MSME business consulting to growth their digital marketing, website development and their business branding. I was able to handle up to 10 clients when I was a project operation lead at Gosocial Indonesia.`, 
-      <br/>,
+      <br/>,<br/>,
       `Furthermore, in my role as a project operation lead, I analyze social media marketing data and engagement growth in each content posted by the team and visualize that information using tools such as Google Data Studio and present it to clients every month. Apart from that, I also have a passion for software engineering and data science. I have freelance website development experience using the latest frameworks such as Laravel, Vue and React. I also have experience in data science and data engineering. I have a strong interest in data science and data engineering, and I am currently working on a project to develop a web application`,
     ],
   },
@@ -114,6 +114,64 @@ const userData = {
     kaggle:"https://www.kaggle.com/laroybafia",
     dribble:"https://dribbble.com/laroybafia",
     myresume: "https://drive.google.com/file/d/1rEXuZbcJ0J61QoDHoaiuY5piH5kZ6yi8/view?usp=sharing",
+  },
+  experience: {
+    title: "Experiences",
+    list : [
+      {
+        company: "PT Data Integra Dinamika",
+        link:"https://datadinamika.com/",
+        logo: "/experience/vuejs.png",
+        position: "Frontend Web Developer - (Sept 2021 – Now)",
+        description: "•	Develop Web Based Information System Management, Role : Front End Developer, Tech used: Vue.js, Vuex, REST API. Handle all client project such as website development, social media management, product photos, animated videos and other services from GoSocial ",
+      },
+      {
+        company: "Gosocial Indonesia",
+        link:"https://www.gosocial.co.id/",
+        logo: "/experience/gosocial.jpg",
+        position: "Content Lead - (Sept 2021 – Nov 2021)",
+        description: "•	Manage all social media content for GoSocial Indonesia and Client (Planning, Posting and Reporting) Tech used: Clickup, Adobe Illustrator, Canva, Facebook Business Suite, Google Data Studio"
+      },
+      {
+        company: "Gosocial Indonesia",
+        link:"https://www.gosocial.co.id/",
+        logo: "/experience/gosocial.jpg",
+        position: "Project Operation Lead - (Apr 2021 – Aug 2021)",
+        description: "•	Handle all client project such as website development, social media management, product photos, animated videos and other services from GoSocial. Handle all client project such as website development, social media management, product photos, animated videos and other services from GoSocial"
+      },
+      {
+        company: "Gosocial Indonesia",
+        link:"https://www.gosocial.co.id/",
+        logo: "/experience/gosocial.jpg",
+        position: "Account Executive - (Apr 2020 – Mar 2021)",
+        description: "In my first role, I start my career as a Account Executive which handle all chat in 8 Hours of Office Work and 12 Hours of Online Work every day with dozens of customers every day Make sure the project completed well"
+      },
+    ],
+  },
+  certification: {
+    title: "Certification",
+    list : [
+      {
+        publisher: "SAP University Alliances",
+        title: "ERP Practice using SAP ERP with GBI 3.0 Dataset",
+        link: "https://drive.google.com/file/d/1hOyF4xdX26AFuXEWierbQ1wbhcgWsI1T/view?usp=sharing"
+      },
+      {
+        publisher: "CISCO Networking Academy",
+        title: "Introduction to Cyber Security",
+        link: "https://drive.google.com/file/d/1IFQyFJRqtGkXVFC3wiMdItNUesQxlVN6/view?usp=sharing"
+      },
+      {
+        publisher: "ORACLE Academy",
+        title: "Artificial Intelligence with Machine Learning in Java",
+        link: "https://drive.google.com/file/d/1zUKm2WUcKvdmr0CI90UO0IEHWDVb-PKH/view?usp=sharing"
+      },
+      {
+        publisher: "ORACLE Academy",
+        title: "Java Fundamentals",
+        link: "https://drive.google.com/file/d/1rDd-ZIky8Pd38A0IJoT1G22RtLaR-jua/view?usp=sharing"
+      },
+    ],
   },
 };
 

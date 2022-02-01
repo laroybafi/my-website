@@ -1,7 +1,16 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from "react";
 import userData from "../../data/data";
-import { Container, Grid, Row, Spacer, Card, Text } from "@nextui-org/react";
+import {
+  Container,
+  Grid,
+  Row,
+  Spacer,
+  Collapse,
+  Avatar,
+  Link,
+  Text,
+} from "@nextui-org/react";
 
 export default function Experience() {
   return (
@@ -20,30 +29,36 @@ export default function Experience() {
         </Text>
       </Row>
       <Row justify="center" align="center">
-        <Text h2 size={50} weight="bold">
+        <Text h2 size={50} weight="bold" align="center">
           Here's my experiences.
         </Text>
       </Row>
       <Spacer y={3} />
       <Row>
-        <Grid.Container gap={2} justify="center">
-          <Grid xs={12} sm={5}>
-            <Card cover css={{ w: "100%" }}>
-              <Card.Image
-                src="/images/card-example-5.jpeg"
-                height={400}
-                width="100%"
-                alt="Relaxing app background"
-              />
-            </Card>
-          </Grid>
-          <Grid xs={12} sm={7}>
-            <Card>
-              <Text>{userData.about.title}</Text>
-            </Card>
-          </Grid>
+        <Grid.Container>
+          {userData.experience.list.map((item, index) => (
+            <Grid xs={12} sm={12} key={index}>
+              <Collapse.Group splitted>
+                <Collapse
+                  title={<Text h4>{item.position}</Text>}
+                  subtitle={<Link href={item.link} target="_blank">{item.company}</Link>}
+                  contentLeft={
+                    <Avatar
+                      size="lg"
+                      src={item.logo}
+                      color="gradient"
+                      bordered
+                    />
+                  }
+                >
+                  <Text>{item.description}</Text>
+                </Collapse>
+              </Collapse.Group>
+            </Grid>
+          ))}
         </Grid.Container>
       </Row>
+      <Spacer y={3} />
     </Container>
   );
 }
