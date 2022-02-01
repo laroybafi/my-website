@@ -6,7 +6,7 @@ import RecentProjects from "../components/projects/RecentProject";
 export default function Home() {
   return (
     <ContainerBlock
-    title="Laroybafi Ahmad"
+    title="Laroybafi Ahmad - Lucky Noob Software Engineer"
   >
     <Hero />
     <RecentProjects />

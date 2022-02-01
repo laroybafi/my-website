@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-key */
 const userData = {
   name: "Laroybafi Ahmad",
   designation: "Software Engineer",
@@ -9,27 +10,63 @@ const userData = {
     title:
       "I'm Laroy. I'm a web developer, data engineer and UI designer",
     description: [
-      `I work on projects including websites, web apps, mobile apps, full-stack software development, web scraping and data analytics, SEO, digital marketing, web and graphic design, video production, and code tutorials.`,
+      `Hello, you can call me Ahmad. I am graduated bachelor's degree from Sepuluh Nopember Institute of Technology, Information Systems Department, focusing on Data Acquisition & Information Disemination Laboratories. I have a big passion for data-related activity, and I think data is the main commodity in the future that will drive business to get more competitive. I love the challenge of working in the consulting industry, and I pride myself on working together as a team, meeting deadlines and helping businesses reach their utmost potential.`, 
+      <br/>,<br/>,
+      `I work on projects including websites, web apps, web scraping, data engineering and analytics, digital marketing, also web and graphic design. During my previous role at Gosocial Indonesia, I handled several projects such as social media management and optimization, MSME business consulting to growth their digital marketing, website development and their business branding. I was able to handle up to 10 clients when I was a project operation lead at Gosocial Indonesia.`, 
+      <br/>,
+      `Furthermore, in my role as a project operation lead, I analyze social media marketing data and engagement growth in each content posted by the team and visualize that information using tools such as Google Data Studio and present it to clients every month. Apart from that, I also have a passion for software engineering and data science. I have freelance website development experience using the latest frameworks such as Laravel, Vue and React. I also have experience in data science and data engineering. I have a strong interest in data science and data engineering, and I am currently working on a project to develop a web application`,
     ],
   },
   techstack: {
     title: "Tech Stack",
     list : [
       {
-        title: "Orange",
-        img: "/images/fruit-1.jpeg",
+        title: "React",
+        img: "/techstack/react.png",
       },
       {
-        title: "Tangerine",
-        img: "/images/fruit-2.jpeg",
+        title: "Next JS",
+        img: "/techstack/nextjs.png",
       },
       {
-        title: "Raspberry",
-        img: "/images/fruit-3.jpeg",
+        title: "Vue JS",
+        img: "/techstack/vuejs.png",
       },
       {
-        title: "Lemon",
-        img: "/images/fruit-4.jpeg",
+        title: "Nuxt JS",
+        img: "/techstack/nuxtjs.png",
+      },
+      {
+        title: "Tailwind",
+        img: "/techstack/tailwind.png",
+      },
+      {
+        title: "Bootstrap",
+        img: "/techstack/bootstrap.png",
+      },
+      {
+        title: "Laravel",
+        img: "/techstack/laravel.png",
+      },
+      {
+        title: "Tensorflow",
+        img: "/techstack/tensorflow.png",
+      },
+      {
+        title: "Pytorch",
+        img: "/techstack/pytorch.png",
+      },
+      {
+        title: "PostgreSQL",
+        img: "/techstack/postgresql.png",
+      },
+      {
+        title: "MySQL",
+        img: "/techstack/mysql.png",
+      },
+      {
+        title: "Figma",
+        img: "/techstack/figma.png",
       },
     ],
   },

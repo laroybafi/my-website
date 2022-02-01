@@ -28,10 +28,10 @@ export default function About() {
       <Row>
         <Grid.Container gap={2} justify="center">
           <Grid xs={12} sm={5}>
-            <Card cover css={{ w: "100%" }}>
+            <Card cover css={{ h: "75%" }}>
               <Card.Image
                 src="/bafi.jpg"
-                height={400}
+                height={200}
                 width="100%"
                 alt="Relaxing app background"
               />
@@ -39,7 +39,7 @@ export default function About() {
           </Grid>
           <Grid xs={12} sm={7}>
             <Card>
-              <Text>{userData.about.description}</Text>
+              <Text TextWeights ='semibold'>{userData.about.description}</Text>
             </Card>
           </Grid>
         </Grid.Container>

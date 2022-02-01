@@ -15,7 +15,7 @@ import {
 export default function Blog() {
   return (
     <Container>
-            <Spacer y={3} />
+      <Spacer y={3} />
       <Row justify="center" align="center">
         <Text
           h1
@@ -28,9 +28,10 @@ export default function Blog() {
           MY BLOG
         </Text>
       </Row>
-      <Row justify="center" align="center" >
+      <Row justify="center" align="center">
         <Text h2 size={50} weight="bold" align="center">
-        Insightful and helpful <br/>content curated for you.
+          Insightful and helpful <br />
+          content curated for you.
         </Text>
       </Row>
       <Spacer y={3} />
@@ -38,19 +39,17 @@ export default function Blog() {
         <Grid.Container gap={2} justify="center">
           <Grid xs={12} sm={5}>
             <Card cover css={{ w: "100%" }}>
-            <Card.Image
-                  src="/images/card-example-5.jpeg"
-                  height={400}
-                  width="100%"
-                  alt="Relaxing app background"
-                />
+              <Card.Image
+                src="/images/card-example-5.jpeg"
+                height={400}
+                width="100%"
+                alt="Relaxing app background"
+              />
             </Card>
           </Grid>
           <Grid xs={12} sm={7}>
             <Card>
-            <Text>
-            {userData.about.title}
-        </Text>
+              <Text>{userData.about.title}</Text>
             </Card>
           </Grid>
         </Grid.Container>
