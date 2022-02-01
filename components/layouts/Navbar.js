@@ -18,42 +18,51 @@ export default function Footer() {
       <Spacer y={2} />
       <Row>
         <Grid.Container justify="center">
-          <Grid xs={12} sm={2} alignItems="center">
+          <Grid xs={12} sm={2} alignItems="center" justify="center">
             <Link href="/" passHref>
               <Grid>
                 <Avatar size="lg" src="/avatar.png" color="gradient" bordered />
               </Grid>
             </Link>
           </Grid>
-          <Grid xs={12} sm={8} alignItems="center" justify="center">
+          <Grid xs={12} sm={1} alignItems="center" justify="center">
+          </Grid>
+          <Grid xs={12} sm={1} alignItems="center" justify="center">
             <Link block underline color="black" href="/">
               Home
             </Link>
-            <Spacer />
+          </Grid>
+          <Grid xs={12} sm={1} alignItems="center" justify="center">
             <Link block underline color="black" href="/about">
               About
             </Link>
-            <Spacer />
+          </Grid>
+          <Grid xs={12} sm={1} alignItems="center" justify="center">
             <Link block underline color="black" href="/experience">
               Experience
-            </Link>
-            <Spacer />
+            </Link>            
+          </Grid>
+          <Grid xs={12} sm={1} alignItems="center" justify="center">
             <Link block underline color="black" href="/projects">
               Projects
             </Link>
-            <Spacer />
+          </Grid>
+          <Grid xs={12} sm={1} alignItems="center" justify="center">
             <Link block underline color="black" href="/blog">
               Blog
             </Link>
-            <Spacer />
+          </Grid>
+          <Grid xs={12} sm={1} alignItems="center" justify="center">
             <Link block underline color="black" href="/contact">
               Contact
             </Link>
           </Grid>
-          <Grid xs={12} sm={2} alignItems="center" justify="flex-end">
-          <Grid>
-          <Loading type="points" size="xl"/>
-    </Grid>
+          <Grid xs={12} sm={1} alignItems="center" justify="center">
+          </Grid>
+          <Grid xs={12} sm={2} alignItems="center" justify="center">
+            <Grid>
+              <Loading type="points" size="xl" />
+            </Grid>
           </Grid>
         </Grid.Container>
       </Row>

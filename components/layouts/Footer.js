@@ -10,10 +10,10 @@ export default function Footer() {
       <Spacer y={2} />
       <Row>
         <Grid.Container>
-          <Grid xs={12} sm={3} alignItems="center">
+          <Grid xs={12} sm={2} alignItems="center" justify="center">
             <Text>© 2022 Laroybafi Ahmad</Text>
           </Grid>
-          <Grid xs={12} sm={6} alignItems="center" justify="center"> 
+          <Grid xs={12} sm={7} alignItems="center" justify="center"> 
           <Text color="white">-----------------</Text>
           </Grid>
           <Grid xs={12} sm={3} alignItems="center" justify="center">
