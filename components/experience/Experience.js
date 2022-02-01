@@ -40,8 +40,13 @@ export default function Experience() {
             <Grid xs={12} sm={12} key={index}>
               <Collapse.Group splitted>
                 <Collapse
+                  expanded={index === 0}
                   title={<Text h4>{item.position}</Text>}
-                  subtitle={<Link href={item.link} target="_blank">{item.company}</Link>}
+                  subtitle={
+                    <Link href={item.link} target="_blank">
+                      {item.company}
+                    </Link>
+                  }
                   contentLeft={
                     <Avatar
                       size="lg"

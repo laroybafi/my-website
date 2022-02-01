@@ -17,6 +17,13 @@ const userData = {
       `Furthermore, in my role as a project operation lead, I analyze social media marketing data and engagement growth in each content posted by the team and visualize that information using tools such as Google Data Studio and present it to clients every month. Apart from that, I also have a passion for software engineering and data science. I have freelance website development experience using the latest frameworks such as Laravel, Vue and React. I also have experience in data science and data engineering. I have a strong interest in data science and data engineering, and I am currently working on a project to develop a web application`,
     ],
   },
+  contact: {
+    title: "Contact Me",
+    description: [`For any sort of help or inquiries, feel free to send me an email and I'll get back to you soon.`],
+    hire:"Want to hire me as a freelancer?",
+    schedule: "Schedule a free consultation with me and we can discuss about your project.",
+    calendly: "https://calendly.com/laroybafi/15min",
+  },
   techstack: {
     title: "Tech Stack",
     list : [
@@ -105,6 +112,7 @@ const userData = {
     ],
   },
   socialLinks: {
+    title: "Social Links",
     facebook: "https://facebook.com/roylabafi",
     instagram: "https://instagram.com/laroybafia",
     twitter: "https://twitter.com/bafiiii",
@@ -170,6 +178,29 @@ const userData = {
         publisher: "ORACLE Academy",
         title: "Java Fundamentals",
         link: "https://drive.google.com/file/d/1rDd-ZIky8Pd38A0IJoT1G22RtLaR-jua/view?usp=sharing"
+      },
+    ],
+  },
+  recommendation: {
+    title: "Recommendation",
+    list : [
+      {
+        name: "Ivan Althirafi",
+        position:"CEO GoSocial Indonesia",
+        photo: "/avatars/avatar-8.png",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat ",
+      },
+      {
+        name: "Novyant Syahputra",
+        position:"CEO Vyant Prosound and Software Engineer",
+        photo: "/avatars/avatar-9.png",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat ",
+      },
+      {
+        name: "Amir Mutashim Billah",
+        position:"Backend Engineer",
+        photo: "/avatars/avatar-10.png",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat ",
       },
     ],
   },
