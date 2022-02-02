@@ -244,10 +244,16 @@ const userData = {
     title: "Data Analysis",
     list: [
       {
-        title:"",
-        description:"",
-        img:"",
-        link:"",
+        title:"Google Data Studio",
+        description:"Instagram Report",
+        img:"/projects/dataanalysis/datastudio-triv.png",
+        link:"#",
+      },
+      {
+        title:"Microsoft Power BI",
+        description:"Company Report",
+        img:"/projects/dataanalysis/powerbi-kpsg.png",
+        link:"#",
       }
     ]
   },
@@ -256,9 +262,15 @@ const userData = {
     list: [
       {
         title:"Bullush",
-        description:"Crypto Arbitrage Trading App",
+        description:"Crypto Trading App",
         img:"/projects/uidesign/Bullush.png",
         link:"https://dribbble.com/shots/17142822-Crypto-Arbitrage-App-UI",
+      },
+      {
+        title:"Neetep",
+        description:"Ecommerce App",
+        img:"/projects/uidesign/neetep.png",
+        link:"#",
       }
     ]
   },
@@ -266,10 +278,16 @@ const userData = {
     title: "Website Development",
     list: [
       {
-        title:"",
-        description:"",
-        img:"",
-        link:"",
+        title:"Wordpress",
+        description:"Armetalindo",
+        img:"/projects/webdev/wordpress-armetalindo.png",
+        link:"https://project.gosocial.co.id/armetalindo/",
+      },
+      {
+        title:"Wordpress",
+        description:"Konksyworks",
+        img:"/projects/webdev/wordpress-konksyworks.png",
+        link:"https://www.konksyworks.com/",
       }
     ]
   }
