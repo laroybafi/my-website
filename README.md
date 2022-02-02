@@ -1,3 +1,17 @@
+# braydoncoyer.dev
+
+- **Framework**: [Next.js](https://nextjs.org/)
+- **Styling**: [Next UI]https://nextui.org/)
+- **Deployment**: [Vercel](https://vercel.com)
+
+## Project Overview
+
+- `components/*` - Various components used throughout the site.
+- `layouts/*` - The different layout options available to use on each page.
+- `pages/*` - All other static pages.
+- `public/*` - Static assets including robots.txt
+- `data/*` - a simple object containing global data about the site.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
