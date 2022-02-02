@@ -1,8 +1,14 @@
 import React from "react";
 import userData from "../../data/data";
-import Link from "next/link";
-import { useRouter } from "next/router";
-import { Grid, Spacer, Text, Row, Container, Avatar } from "@nextui-org/react";
+import {
+  Grid,
+  Spacer,
+  Text,
+  Row,
+  Container,
+  Avatar,
+  Link,
+} from "@nextui-org/react";
 
 export default function Footer() {
   return (
@@ -13,11 +19,11 @@ export default function Footer() {
           <Grid xs={12} sm={2} alignItems="center" justify="center">
             <Text>© 2022 Laroybafi Ahmad</Text>
           </Grid>
-          <Grid xs={12} sm={7} alignItems="center" justify="center"> 
-          <Text color="white">-----------------</Text>
+          <Grid xs={12} sm={7} alignItems="center" justify="center">
+            <Text color="white">-----------------</Text>
           </Grid>
           <Grid xs={12} sm={3} alignItems="center" justify="center">
-            <Link href={userData.socialLinks.github} passHref target="_blank">
+            <Link href={userData.socialLinks.github} target="_blank">
               <Avatar
                 size="md"
                 src="/GitHub.png"
@@ -27,7 +33,7 @@ export default function Footer() {
               />
             </Link>
             <Spacer />
-            <Link href={userData.socialLinks.medium} passHref target="_blank">
+            <Link href={userData.socialLinks.medium} target="_blank">
               <Avatar
                 size="md"
                 src="/medium.png"
@@ -37,7 +43,7 @@ export default function Footer() {
               />
             </Link>
             <Spacer />
-            <Link href={userData.socialLinks.kaggle} passHref target="_blank">
+            <Link href={userData.socialLinks.kaggle} target="_blank">
               <Avatar
                 size="md"
                 src="/kaggle.png"
@@ -47,7 +53,7 @@ export default function Footer() {
               />
             </Link>
             <Spacer />
-            <Link href={userData.socialLinks.linkedin} passHref target="_blank">
+            <Link href={userData.socialLinks.linkedin} target="_blank">
               <Avatar
                 size="md"
                 src="/linkedin.png"
@@ -57,7 +63,7 @@ export default function Footer() {
               />
             </Link>
             <Spacer />
-            <Link href={userData.socialLinks.dribble} passHref target="_blank">
+            <Link href={userData.socialLinks.dribble} target="_blank">
               <Avatar
                 size="md"
                 src="/dribble.png"

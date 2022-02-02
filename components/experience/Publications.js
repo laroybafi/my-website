@@ -30,7 +30,7 @@ export default function Publications() {
           <Card.Footer>
             <Link color="primary" target="_blank" href={item.link}>
               <Button color="gradient" auto ghost>
-                View Certificate
+                Read More
               </Button>
             </Link>
           </Card.Footer>

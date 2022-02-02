@@ -64,23 +64,23 @@ export default function About() {
                 {userData.socialLinks.title}
               </Text>
               <Text>
-                <Link href={userData.socialLinks.linkedin} color underline>
-                • LinkedIn
+                <Link href={userData.socialLinks.linkedin} color underline target="_blank">
+                  • LinkedIn
                 </Link>
               </Text>
               <Text>
-                <Link href={userData.socialLinks.instagram} color underline>
-                •	Instagram
+                <Link href={userData.socialLinks.instagram} color underline target="_blank">
+                  • Instagram
                 </Link>
               </Text>
               <Text>
-                <Link href={userData.socialLinks.facebook} color underline>
-                •	Facebook
+                <Link href={userData.socialLinks.facebook} color underline target="_blank">
+                  • Facebook
                 </Link>
               </Text>
               <Text>
-                <Link href={userData.socialLinks.twitter} color underline>
-                •	Twitter
+                <Link href={userData.socialLinks.twitter} color underline target="_blank">
+                  • Twitter
                 </Link>
               </Text>
             </Card>
@@ -95,13 +95,9 @@ export default function About() {
                   <Grid xs={12} sm={12} key={index}>
                     <Collapse.Group splitted>
                       <Collapse
-                      expanded
+                        expanded
                         title={<Text h4>{item.name}</Text>}
-                        subtitle={
-                          <Text>
-                            {item.position}
-                          </Text>
-                        }
+                        subtitle={<Text>{item.position}</Text>}
                         contentLeft={
                           <Avatar
                             size="lg"

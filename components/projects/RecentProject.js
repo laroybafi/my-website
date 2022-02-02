@@ -36,7 +36,7 @@ export default function RecentProjects() {
       </Grid.Container>
       <Grid.Container gap={2}>
         <Grid>
-          <Link href="/projects" passHref>
+          <Link href="/projects" passhref>
             {" "}
             <Button size="lg" color="gradient" auto ghost>
               See All My Projects

@@ -56,7 +56,7 @@ export default function Experience() {
                     />
                   }
                 >
-                  <Text>{item.description}</Text>
+                  <Text size={17}>{item.description}</Text>
                 </Collapse>
               </Collapse.Group>
             </Grid>

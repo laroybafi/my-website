@@ -1,7 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from "react";
-import userData from "../../data/data";
-import NextLink from "next/link";
 import {
   Grid,
   Spacer,
@@ -19,7 +17,7 @@ export default function Footer() {
       <Row>
         <Grid.Container justify="center">
           <Grid xs={12} sm={2} alignItems="center" justify="center">
-            <Link href="/" passHref>
+            <Link href="/" passhref>
               <Grid>
                 <Avatar size="lg" src="/avatar.png" color="gradient" bordered />
               </Grid>

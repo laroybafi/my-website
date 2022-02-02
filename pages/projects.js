@@ -9,8 +9,8 @@ export default function projects() {
   return (
     <ContainerBlock title="Projects - Laroybafi Ahmad">
       <Projects />
-      <DataAnalysis />
       <UserInterface />
+      <DataAnalysis />
       <WebsiteDevelopment />
     </ContainerBlock>
   );
