@@ -1,7 +1,7 @@
-# braydoncoyer.dev
+# laroybafi.my.id
 
 - **Framework**: [Next.js](https://nextjs.org/)
-- **Styling**: [Next UI]https://nextui.org/)
+- **Styling**: [Next UI](https://nextui.org/)
 - **Deployment**: [Vercel](https://vercel.com)
 
 ## Project Overview
