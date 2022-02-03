@@ -39,7 +39,7 @@ const userData = {
     kaggle: "https://www.kaggle.com/laroybafia",
     dribble: "https://dribbble.com/laroybafia",
     myresume:
-      "https://drive.google.com/file/d/1rEXuZbcJ0J61QoDHoaiuY5piH5kZ6yi8/view?usp=sharing",
+      "https://drive.google.com/file/d/1HUMIRIaAgAKmYyIAkMLzVXhLZVCT5NzB/view?usp=sharing",
   },
   techstack: {
     title: "Tech Stack",
