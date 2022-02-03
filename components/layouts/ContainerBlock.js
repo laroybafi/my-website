@@ -20,17 +20,18 @@ export default function ContainerBlock({ children, ...customMeta }) {
       <Head>
         <title>{meta.title}</title>
         <meta name="robots" content="follow, index" />
+        <meta name="google-site-verification" content="GPht8NK2bfNlSiWaQwNg-_feRA_eSzUbA9pHrRmUpiE" />
         <meta content={meta.description} name="description" />
         <meta
           property="og:url"
-          content={`https://laroybafia.com${router.asPath}`}
+          content={`https://laroybafi.my.id/${router.asPath}`}
         />
         <link
           rel="canonical"
-          href={`https://laroybafia.com${router.asPath}`}
+          href={`https://laroybafi.my.id/${router.asPath}`}
         />
         <meta property="og:type" content={meta.type} />
-        <meta property="og:site_name" content="Bryl Lim" />
+        <meta property="og:site_name" content="Laroybafi" />
         <meta property="og:description" content={meta.description} />
         <meta property="og:title" content={meta.title} />
         <meta property="og:image" content={meta.image} />
