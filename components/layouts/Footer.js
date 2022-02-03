@@ -17,7 +17,7 @@ export default function Footer() {
       <Row>
         <Grid.Container>
           <Grid xs={12} sm={2} alignItems="center" justify="center">
-            <Text>© 2022 Laroybafi Ahmad</Text>
+            <Text>© 2022 Ahmad Laroy Bafi</Text>
           </Grid>
           <Grid xs={12} sm={7} alignItems="center" justify="center">
             <Text color="white">-----------------</Text>

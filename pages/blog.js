@@ -4,7 +4,7 @@ import Blog from "../components/blogs/Blog";
 
 export default function blog() {
   return (
-    <ContainerBlock title="Blog - Laroybafi Ahmad">
+    <ContainerBlock title="Blog - Ahmad Laroy Bafi">
       <Blog />
     </ContainerBlock>
   );

@@ -7,7 +7,7 @@ import WebsiteDevelopment from "../components/projects/WebsiteDevelopment";
 
 export default function projects() {
   return (
-    <ContainerBlock title="Projects - Laroybafi Ahmad">
+    <ContainerBlock title="Projects - Ahmad Laroy Bafi">
       <Projects />
       <UserInterface />
       <DataAnalysis />

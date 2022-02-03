@@ -9,7 +9,7 @@ export default function ContainerBlock({ children, ...customMeta }) {
   const router = useRouter();
 
   const meta = {
-    title: "Laroybafi Ahmad - Software Engineer",
+    title: "Ahmad Laroy Bafi - Software Engineer",
     description: `A 23-year-old software engineer based in Surabaya, Indonesia.`,
     image: "/avatar.png",
     type: "website",

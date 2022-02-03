@@ -6,7 +6,7 @@ import Techstack from "../components/about/Techstack";
 
 export default function about() {
   return (
-    <ContainerBlock title="About - Laroybafi Ahmad">
+    <ContainerBlock title="About - Ahmad Laroy Bafi">
       <About />
       <Techstack />
       <RecentBlog />

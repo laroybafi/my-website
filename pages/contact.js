@@ -4,7 +4,7 @@ import Contact from "../components/contact/Contact";
 
 export default function contact() {
   return (
-    <ContainerBlock title="Contact - Laroybafi Ahmad">
+    <ContainerBlock title="Contact - Ahmad Laroy Bafi">
       <Contact />
     </ContainerBlock>
   );

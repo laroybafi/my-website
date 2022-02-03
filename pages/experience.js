@@ -5,7 +5,7 @@ import Certification from "../components/experience/Certification";
 import Publications from "../components/experience/Publications";
 export default function experience() {
   return (
-    <ContainerBlock title="Experience - Laroybafi Ahmad">
+    <ContainerBlock title="Experience - Ahmad Laroy Bafi">
       <Experience />
       <Publications />
       <Certification />

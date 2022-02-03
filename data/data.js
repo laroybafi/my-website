@@ -1,6 +1,6 @@
 /* eslint-disable react/jsx-key */
 const userData = {
-  name: "Laroybafi Ahmad",
+  name: "Ahmad Laroy Bafi",
   designation: "Software Engineer",
   avatarUrl: "/avatar.png",
   email: "laroybafiahmad@gmail.com",
