@@ -1,5 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from "react";
+import Link from "next/link";
 import {
   Grid,
   Spacer,
@@ -7,7 +8,6 @@ import {
   Row,
   Container,
   Avatar,
-  Link,
 } from "@nextui-org/react";
 
 export default function Footer() {
@@ -23,8 +23,7 @@ export default function Footer() {
               </Grid>
             </Link>
           </Grid>
-          <Grid xs={12} sm={1} alignItems="center" justify="center">
-          </Grid>
+          <Grid xs={12} sm={1} alignItems="center" justify="center"></Grid>
           <Grid xs={12} sm={1} alignItems="center" justify="center">
             <Link block underline color="black" href="/">
               Home
@@ -38,7 +37,7 @@ export default function Footer() {
           <Grid xs={12} sm={1} alignItems="center" justify="center">
             <Link block underline color="black" href="/experience">
               Experience
-            </Link>            
+            </Link>
           </Grid>
           <Grid xs={12} sm={1} alignItems="center" justify="center">
             <Link block underline color="black" href="/projects">
@@ -55,8 +54,7 @@ export default function Footer() {
               Contact
             </Link>
           </Grid>
-          <Grid xs={12} sm={1} alignItems="center" justify="center">
-          </Grid>
+          <Grid xs={12} sm={1} alignItems="center" justify="center"></Grid>
           <Grid xs={12} sm={2} alignItems="center" justify="center">
             <Grid>
               <Loading type="points" size="xl" />
