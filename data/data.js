@@ -273,23 +273,6 @@ const userData = {
         link:"#",
       }
     ]
-  },
-  webdev:{
-    title: "Website Development",
-    list: [
-      {
-        title:"Wordpress",
-        description:"Armetalindo",
-        img:"/projects/webdev/wordpress-armetalindo.png",
-        link:"https://project.gosocial.co.id/armetalindo/",
-      },
-      {
-        title:"Wordpress",
-        description:"Konksyworks",
-        img:"/projects/webdev/wordpress-konksyworks.png",
-        link:"https://www.konksyworks.com/",
-      }
-    ]
   }
 };
 
