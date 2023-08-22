@@ -7,7 +7,7 @@ const userData = {
   phone: "+6285649355973",
   address: "Surabaya, East Java, Indonesia",
   about: {
-    title: "I'm Laroy. I'm a web developer, data engineer and UI designer",
+    title: "Hello! I'm a  with a passion for mobile, web,",
     description: [
       `Hello, you can call me Ahmad. I am graduated bachelor's degree from Sepuluh Nopember Institute of Technology, Information Systems Department, focusing on Data Acquisition & Information Disemination Laboratories. I have a big passion for data-related activity, and I think data is the main commodity in the future that will drive business to get more competitive. I love the challenge of working in the consulting industry, and I pride myself on working together as a team, meeting deadlines and helping businesses reach their utmost potential.`,
       <br />,
@@ -57,10 +57,6 @@ const userData = {
         img: "/techstack/vuejs.png",
       },
       {
-        title: "Nuxt JS",
-        img: "/techstack/nuxtjs.png",
-      },
-      {
         title: "Tailwind",
         img: "/techstack/tailwind.png",
       },
@@ -71,14 +67,6 @@ const userData = {
       {
         title: "Laravel",
         img: "/techstack/laravel.png",
-      },
-      {
-        title: "Tensorflow",
-        img: "/techstack/tensorflow.png",
-      },
-      {
-        title: "Pytorch",
-        img: "/techstack/pytorch.png",
       },
       {
         title: "PostgreSQL",
@@ -126,7 +114,7 @@ const userData = {
         company: "PT Data Integra Dinamika",
         link: "https://datadinamika.com/",
         logo: "/experience/vuejs.png",
-        position: "Frontend Web Developer - (Sept 2021 – Now)",
+        position: "Frontend Web Developer - (Sept 2021 – Feb 2022)",
         description:
           "In this position, I and my team develop Web Based Information System Management. My specific role is a Front End Developer, Tech Stack which we choose are Vue.js, Vuex, REST API. My team also work on the backend with Lumen from Laravel and PostgreSQL. I also work on the frontend with vuetify libraries",
       },
@@ -137,22 +125,6 @@ const userData = {
         position: "Content Lead - (Sept 2021 – Nov 2021)",
         description:
           "My responsibilities in this position is to manage all social media content for GoSocial Indonesia and Client include Planning, Posting and Reporting at he end of month. I used several software to support my jobs such as : Clickup, Adobe Illustrator, Canva, Facebook Business Suite, Google Data Studio",
-      },
-      {
-        company: "Gosocial Indonesia",
-        link: "https://www.gosocial.co.id/",
-        logo: "/experience/gosocial.jpg",
-        position: "Project Operation Lead - (Apr 2021 – Aug 2021)",
-        description:
-          "Handle all client projects such as website development, social media management, product photos, animated videos and other services from GoSocial and make sure the project well done. I used several software to support my jobs such as : Clickup, Adobe Illustrator, Canva, Facebook Business Suite, Google Data Studio. ",
-      },
-      {
-        company: "Gosocial Indonesia",
-        link: "https://www.gosocial.co.id/",
-        logo: "/experience/gosocial.jpg",
-        position: "Account Executive - (Apr 2020 – Mar 2021)",
-        description:
-          "In my first role, I start my career as a Account Executive which handle all chat in 8 Hours of Office Work and 12 Hours of Online Work every day with dozens of customers every day Make sure the project completed well",
       },
     ],
   },
