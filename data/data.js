@@ -13,7 +13,9 @@ const userData = {
       <br />,
       <br />,
       `I work on projects including websites, web apps, web scraping, data engineering and analytics, also web and graphic design and I am currently working as a freelance on a project to develop a web application`,
-    ],
+      <br />,
+<br />,<br />,<br />,<br />,<br />,
+     ],
   },
   contact: {
     title: "Contact Me",
