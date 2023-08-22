@@ -7,15 +7,12 @@ const userData = {
   phone: "+6285649355973",
   address: "Surabaya, East Java, Indonesia",
   about: {
-    title: "Hello! I'm a  with a passion for mobile, web,",
+    title: "Hello! I'm a software engineer with a passion for web development, UI design and Machine Learning",
     description: [
       `Hello, you can call me Ahmad. I am graduated bachelor's degree from Sepuluh Nopember Institute of Technology, Information Systems Department, focusing on Data Acquisition & Information Disemination Laboratories. I have a big passion for data-related activity, and I think data is the main commodity in the future that will drive business to get more competitive. I love the challenge of working in the consulting industry, and I pride myself on working together as a team, meeting deadlines and helping businesses reach their utmost potential.`,
       <br />,
       <br />,
-      `I work on projects including websites, web apps, web scraping, data engineering and analytics, digital marketing, also web and graphic design. During my previous role at Gosocial Indonesia, I handled several projects such as social media management and optimization, MSME business consulting to growth their digital marketing, website development and their business branding. I was able to handle up to 10 clients when I was a project operation lead at Gosocial Indonesia.`,
-      <br />,
-      <br />,
-      `Furthermore, in my role as a project operation lead, I analyze social media marketing data and engagement growth in each content posted by the team and visualize that information using tools such as Google Data Studio and present it to clients every month. Apart from that, I also have a passion for software engineering and data science. I have freelance website development experience using the latest frameworks such as Laravel, Vue and React. I also have experience in data science and data engineering. I have a strong interest in data science and data engineering, and I am currently working on a project to develop a web application`,
+      `I work on projects including websites, web apps, web scraping, data engineering and analytics, also web and graphic design and I am currently working as a freelance on a project to develop a web application`,
     ],
   },
   contact: {
@@ -156,20 +153,6 @@ const userData = {
   recommendation: {
     title: "Recommendation",
     list: [
-      {
-        name: "Ivan Althirafi",
-        position: "CEO GoSocial Indonesia",
-        photo: "/avatars/avatar-8.png",
-        description:
-          "Roy was the most talented content lead and project manager I've mentored in a long time. He's a fast learner, and he always makes sure to deliver quality output given a period of time. He is also very keen on learning new technologies, and I find him to be objectively passionate about tech. He's definitely someone you want on your team.",
-      },
-      {
-        name: "Novyant Syahputra",
-        position: "CEO Vyant Prosound and Software Engineer",
-        photo: "/avatars/avatar-9.png",
-        description:
-          "Bafi is my college friend and a good student. I worked together with him in our thesis and do various web development projects. He is a very hardworking person and always ready to learn new technologies. He is also very passionate about technology and always try to learn new things. I recommend him to everyone.",
-      },
       {
         name: "Amir Mutashim Billah",
         position: "Backend Engineer",
