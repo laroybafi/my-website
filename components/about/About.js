@@ -27,16 +27,6 @@ export default function About() {
       <Spacer y={3} />
       <Row>
         <Grid.Container gap={2} justify="center">
-          <Grid xs={12} sm={5}>
-            <Card cover css={{ h: "73%" }}>
-              <Card.Image
-                src="/bafi.jpg"
-                height={400}
-                width="100%"
-                alt="foto"
-              />
-            </Card>
-          </Grid>
           <Grid xs={12} sm={7}>
             <Card>
               <Text TextWeights ='semibold'>{userData.about.description}</Text>

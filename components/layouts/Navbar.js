@@ -56,9 +56,6 @@ export default function Footer() {
           </Grid>
           <Grid xs={12} sm={1} alignItems="center" justify="center"></Grid>
           <Grid xs={12} sm={2} alignItems="center" justify="center">
-            <Grid>
-              <Loading type="points" size="xl" />
-            </Grid>
           </Grid>
         </Grid.Container>
       </Row>

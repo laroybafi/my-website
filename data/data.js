@@ -7,14 +7,13 @@ const userData = {
   phone: "+6285649355973",
   address: "Surabaya, East Java, Indonesia",
   about: {
-    title: "Hello! I'm a software engineer with a passion for web development, UI design and Machine Learning",
+    title: "Hello! I'm a Software Engineer",
     description: [
       `Hello, you can call me Ahmad. I am graduated bachelor's degree from Sepuluh Nopember Institute of Technology, Information Systems Department, focusing on Data Acquisition & Information Disemination Laboratories. I have a big passion for data-related activity, and I think data is the main commodity in the future that will drive business to get more competitive. I love the challenge of working in the consulting industry, and I pride myself on working together as a team, meeting deadlines and helping businesses reach their utmost potential.`,
       <br />,
       <br />,
       `I work on projects including websites, web apps, web scraping, data engineering and analytics, also web and graphic design and I am currently working as a freelance on a project to develop a web application`,
       <br />,
-<br />,<br />,<br />,<br />,<br />,
      ],
   },
   contact: {

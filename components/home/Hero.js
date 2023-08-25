@@ -31,7 +31,7 @@ export default function Hero() {
         <Spacer y={2} />
         <Grid xs={12} sm={4} justify="flex-end">
           <Row>
-            <Image src="/avatar.png" alt="hero" width={260} height={260} />
+            
           </Row>
         </Grid>
         <Spacer y={2} />
