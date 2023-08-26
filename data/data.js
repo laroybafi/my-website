@@ -85,10 +85,6 @@ const userData = {
         title: "Power BI",
         img: "/techstack/powerbi.png",
       },
-      {
-        title: "Tableau",
-        img: "/techstack/tableau.png",
-      },
     ],
   },
   blogs: {
