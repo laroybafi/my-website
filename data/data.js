@@ -29,7 +29,7 @@ const userData = {
     title: "Social Links",
     facebook: "https://facebook.com/roylabafi",
     instagram: "https://instagram.com/laroybafia",
-    twitter: "https://twitter.com/bafiiii",
+    twitter: "https://twitter.com/ohmybuffy",
     linkedin: "https://linkedin.com/in/laroybafi",
     github: "https://github.com/laroybafi",
     medium: "https://medium.com/@laroybafia",
