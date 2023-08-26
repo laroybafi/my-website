@@ -41,11 +41,11 @@ export default function Experience() {
               <Collapse.Group splitted>
                 <Collapse
                   expanded={index === 0}
-                  title={<Text h4>{item.position}</Text>}
+                  title={<Link href={item.link} target="_blank">
+                  {item.company}
+                </Link>}
                   subtitle={
-                    <Link href={item.link} target="_blank">
-                      {item.company}
-                    </Link>
+                    <Text h5>{item.position}</Text>
                   }
                   contentLeft={
                     <Avatar

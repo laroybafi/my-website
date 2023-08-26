@@ -9,10 +9,9 @@ const userData = {
   about: {
     title: "Hello! I'm a Software Engineer",
     description: [
-      `Hello, you can call me Ahmad. I am graduated bachelor's degree from Sepuluh Nopember Institute of Technology, Information Systems Department, focusing on Data Acquisition & Information Disemination Laboratories. I have a big passion for data-related activity, and I think data is the main commodity in the future that will drive business to get more competitive. I love the challenge of working in the consulting industry, and I pride myself on working together as a team, meeting deadlines and helping businesses reach their utmost potential.`,
+      `Hello, you can call me Ahmad. Graduate with a Bachelor of Science in Information Systems. Skilled in IT project management, UI/UX design, and software development. Adept in using programming languages such as Python, Javascript and PHP. Knowledgeable in various IS technologies and methodologies, including data analytics, ERP, and SDLC. Seeking to leverage my education and skills in a challenging and dynamic work environment.`,
       <br />,
-      <br />,
-      `I work on projects including websites, web apps, web scraping, data engineering and analytics, also web and graphic design and I am currently working as a freelance on a project to develop a web application`,
+      `Currently I am working as a Solution Development in Indosat Ooredoo Hutchison. I also work as a freelance on projects including websites development, web scraping, data engineering and analytics, also UI Design`,
       <br />,
      ],
   },
@@ -108,6 +107,42 @@ const userData = {
   experience: {
     title: "Experiences",
     list: [
+      {
+        company: "Indosat Ooredoo Hutchison",
+        link: "https://ioh.co.id/portal/id/iohindex",
+        logo: "/experience/ioh.png",
+        position: "Solution Development - (May 2023 – Now)",
+        description:
+        [
+          `o	Assess business user requirements and create Business Requirement Document (BRD) `,
+          <br />,
+          `o	Monitor the development and ensure everything runs on schedule.`,
+          <br />,
+          `o	Support SIT and UAT by working with the QA Tester to ensure the feature is developed with the initial requirement and ensure no requirements are missed.`
+         ],
+      },
+      {
+        company: "Indosat Ooredoo Hutchison",
+        link: "https://ioh.co.id/portal/id/iohindex",
+        logo: "/experience/ioh.png",
+        position: "Business Analyst - (Oct 2022 – May 2023)",
+        description:
+        [
+          `o	Assess business user requirements and create Business Requirement Document (BRD) `,
+          <br />,
+          `o	Monitor the development and ensure everything runs on schedule.`,
+          <br />,
+          `o	Support SIT and UAT by working with the QA Tester to ensure the feature is developed with the initial requirement and ensure no requirements are missed.`
+         ],
+      },
+      {
+        company: "NTT Indonesia Technology",
+        link: "https://www.global.ntt/",
+        logo: "/experience/ntt.png",
+        position: "Associate Engineer : Software Development - (Feb 2022 – Sept 2023)",
+        description:
+          "Assigned to a telco company and do some tasks such as creating automated testing scripts for mobile applications, Configuring product catalog with HTML & CSS format. Creating a landing page promo with unique promo codes for each subscriber.",
+      },
       {
         company: "PT Data Integra Dinamika",
         link: "https://datadinamika.com/",
