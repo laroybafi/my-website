@@ -12,7 +12,7 @@ export default function Techstack() {
       <Grid.Container gap={2} justify="flex-start">
         {userData.techstack.list.map((item, index) => (
           <Grid xs={6} sm={2} key={index}>
-            <Card hoverable clickable width="100%">
+            <Card hoverable width="100%">
               <Card.Body css={{ p: 0 }}>
                 <Card.Image
                   src={item.img}

@@ -12,11 +12,11 @@ import {
 
 export async function getStaticProps() {
   const res = await fetch("https://api.github.com/users/laroybafi/repos");
-  const repo = await res.json();
-  return { props: { repo } }
+  const repos = await res.json();
+  return { props: { repos } }
 }
 
-export default function RecentProjects({ repo }) {
+export default function RecentProjects({ repos }) {
   return (
     <Container>
       <h1>Recent Projects</h1>
@@ -24,11 +24,11 @@ export default function RecentProjects({ repo }) {
       <p>Check out a few of my most recent repositories.</p>
       
       <Grid.Container gap={2}> 
-        {repo && repo.map((repo, id) => (
+        {repos?.map((repo) => (
           <Grid xs={12} sm={4} key={id}>
             <Card hoverable>
               <Text h4>{repo.name}</Text>
-              <Text>🚀 {repo.description}</Text>
+              <Text>🚀{repo.description}</Text>
               <Card.Footer>
                 <Link color="primary" target="_blank" href={repo.html_url}>
                   <Button color="gradient">
@@ -41,6 +41,7 @@ export default function RecentProjects({ repo }) {
           </Grid>
         ))}
       </Grid.Container>
+
       <Grid.Container gap={2}>
         <Grid>
           <Link href="/projects" passhref="true">
