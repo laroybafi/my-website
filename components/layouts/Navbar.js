@@ -38,11 +38,11 @@ export default function Footer() {
               Experience
             </Link>
           </Grid>
-          <Grid xs={12} sm={1} alignItems="center" justify="center">
+          {/* <Grid xs={12} sm={1} alignItems="center" justify="center">
             <Link block underline color="black" href="/projects">
               Projects
             </Link>
-          </Grid>
+          </Grid> */}
           <Grid xs={12} sm={1} alignItems="center" justify="center">
             <Link block underline color="black" href="/blog">
               Blog
