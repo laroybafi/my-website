@@ -10,20 +10,27 @@ import {
   Button,
 } from "@nextui-org/react";
 
-export default function RecentProjects() {
+export async function getStaticProps() {
+  const res = await fetch("https://api.github.com/users/laroybafi/repos");
+  const repo = await res.json();
+  return { props: { repo } }
+}
+
+export default function RecentProjects({ repo }) {
   return (
     <Container>
       <h1>Recent Projects</h1>
       <h3>Here are lists of the latest projects that I have worked on</h3>
       <p>Check out a few of my most recent repositories.</p>
-      <Grid.Container gap={2}>
-        {userData.projects.list.map((item, index) => (
-          <Grid xs={12} sm={4} key={index}>
+      
+      <Grid.Container gap={2}> 
+        {repo && repo.map((repo, id) => (
+          <Grid xs={12} sm={4} key={id}>
             <Card hoverable>
-              <Text h4>{item.category}</Text>
-              <Text>🚀 {item.title}</Text>
+              <Text h4>{repo.name}</Text>
+              <Text>🚀 {repo.description}</Text>
               <Card.Footer>
-                <Link color="primary" target="_blank" href={item.link}>
+                <Link color="primary" target="_blank" href={repo.html_url}>
                   <Button color="gradient">
                     {" "}
                     Visit source code on GitHub.{" "}
@@ -36,7 +43,7 @@ export default function RecentProjects() {
       </Grid.Container>
       <Grid.Container gap={2}>
         <Grid>
-          <Link href="/projects" passhref>
+          <Link href="/projects" passhref="true">
             {" "}
             <Button size="lg" color="gradient" auto ghost>
               See All My Projects

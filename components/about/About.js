@@ -29,7 +29,7 @@ export default function About() {
         <Grid.Container gap={2} justify="center">
           <Grid xs={12} sm={7}>
             <Card>
-              <Text TextWeights ='semibold'>{userData.about.description}</Text>
+              <Text textweights ='semibold'>{userData.about.description}</Text>
             </Card>
           </Grid>
         </Grid.Container>

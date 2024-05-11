@@ -29,7 +29,6 @@ export default function Footer() {
                 src="/GitHub.png"
                 color="gradient"
                 bordered
-                clickable
               />
             </Link>
             <Spacer />
@@ -39,7 +38,6 @@ export default function Footer() {
                 src="/medium.png"
                 color="gradient"
                 bordered
-                clickable
               />
             </Link>
             <Spacer />
@@ -49,7 +47,6 @@ export default function Footer() {
                 src="/kaggle.png"
                 color="gradient"
                 bordered
-                clickable
               />
             </Link>
             <Spacer />
@@ -59,7 +56,6 @@ export default function Footer() {
                 src="/linkedin.png"
                 color="gradient"
                 bordered
-                clickable
               />
             </Link>
             <Spacer />
@@ -69,7 +65,6 @@ export default function Footer() {
                 src="/dribble.png"
                 color="gradient"
                 bordered
-                clickable
               />
             </Link>
           </Grid>

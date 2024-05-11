@@ -16,7 +16,7 @@ export default function Footer() {
       <Row>
         <Grid.Container justify="center">
           <Grid xs={12} sm={2} alignItems="center" justify="center">
-            <Link href="/" passhref>
+            <Link href="/" passhref="true">
               <Grid>
                 <Avatar size="lg" src="/avatar.png" color="gradient" bordered />
               </Grid>
@@ -24,17 +24,17 @@ export default function Footer() {
           </Grid>
           <Grid xs={12} sm={1} alignItems="center" justify="center"></Grid>
           <Grid xs={12} sm={1} alignItems="center" justify="center">
-            <Link block underline color="black" href="/">
+            <Link color="black" href="/">
               Home
             </Link>
           </Grid>
           <Grid xs={12} sm={1} alignItems="center" justify="center">
-            <Link block underline color="black" href="/about">
+            <Link color="black" href="/about">
               About
             </Link>
           </Grid>
           <Grid xs={12} sm={1} alignItems="center" justify="center">
-            <Link block underline color="black" href="/experience">
+            <Link color="black" href="/experience">
               Experience
             </Link>
           </Grid>
@@ -44,12 +44,12 @@ export default function Footer() {
             </Link>
           </Grid> */}
           <Grid xs={12} sm={1} alignItems="center" justify="center">
-            <Link block underline color="black" href="/blog">
+            <Link color="black" href="/blog">
               Blog
             </Link>
           </Grid>
           <Grid xs={12} sm={1} alignItems="center" justify="center">
-            <Link block underline color="black" href="/contact">
+            <Link color="black" href="/contact">
               Contact
             </Link>
           </Grid>
